@@ -1,3 +1,4 @@
+import 'package:facebook/views/custom_colum_view.dart';
 import 'package:facebook/views/home_view.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomeView(),
+      debugShowCheckedModeBanner: false,
+      home: CustomColumView(),
     );
   }
 }
