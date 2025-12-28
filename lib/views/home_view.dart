@@ -40,6 +40,12 @@ class HomeView extends StatelessWidget {
           customListChatTile(title: "Abdullah", subtitle: "helloo... "),
           customListChatTile(title: "Ali", subtitle: "helloo... "),
           customListChatTile(title: "Bilal", subtitle: "helloo... "),
+          customListChatTile(title: "Bilal", subtitle: "helloo... "),
+          customListChatTile(title: "Bilal", subtitle: "helloo... "),
+          customListChatTile(title: "Bilal", subtitle: "helloo... "),
+          customListChatTile(title: "Bilal", subtitle: "helloo... "),
+          customListChatTile(title: "Bilal", subtitle: "helloo... "),
+          customListChatTile(title: "Bilal", subtitle: "helloo... "),
         ],
       ),
     );

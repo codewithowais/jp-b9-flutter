@@ -1,5 +1,8 @@
 import 'package:facebook/views/custom_colum_view.dart';
+import 'package:facebook/views/dashboard_view.dart';
 import 'package:facebook/views/home_view.dart';
+import 'package:facebook/views/login_view.dart';
+import 'package:facebook/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,9 +14,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CustomColumView(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashView());
   }
 }
