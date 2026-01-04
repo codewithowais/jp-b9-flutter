@@ -1,6 +1,7 @@
 import 'package:facebook/views/custom_colum_view.dart';
 import 'package:facebook/views/dashboard_view.dart';
 import 'package:facebook/views/home_view.dart';
+import 'package:facebook/views/insta_clone_bottom.dart';
 import 'package:facebook/views/login_view.dart';
 import 'package:facebook/views/splash_view.dart';
 import 'package:flutter/material.dart';
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashView());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: InstaCloneBottom());
   }
 }
